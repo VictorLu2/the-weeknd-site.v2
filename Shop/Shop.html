@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd - Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Shop.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg px-4">
+        <a class="navbar-brand" href="http://127.0.0.1:5500/TheWeeknd/TheWeeknd.html">THE WEEKND</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Listen/Listen.html">LISTEN</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Tour/Tour.html">TOUR</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/Shop/Shop.html">SHOP</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 商品區 -->
+    <!-- 購物車開啟按鈕 -->
+    <button class="btn btn-outline-light position-fixed end-0 m-3" data-bs-toggle="offcanvas"
+        data-bs-target="#cartOffcanvas">
+        🛒
+    </button>
+
+    <div class="container mt-5">
+        <div class="row" id="product-list">
+            <!-- 商品會用 JS 插入這裡 -->
+        </div>
+    </div>
+
+    <!-- 側邊購物車 -->
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="cartOffcanvas">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">CART</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div id="cart-items"></div>
+            <hr>
+            <p>SUBTOTAL：$<span id="cart-total">0</span></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Shop.js"></script>
+</body>
+
+</html>
+
+
+
+

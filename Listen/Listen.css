@@ -1,0 +1,75 @@
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  .navbar {
+    background-color: #000;
+    border-bottom: 1px solid #333;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: #f25c54 !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+/* 自訂背景與卡片風格 */
+        .album-accordion .accordion-button {
+            background: #111;
+            /* 深色背景 */
+            color: #eee;
+            /* 淺色字 */
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .album-accordion .accordion-button:not(.collapsed) {
+            background: #bb0a1e;
+            /* 展開時變紅色 */
+            color: #fff;
+        }
+
+        .album-accordion .accordion-body {
+            background: #222;
+            color: #ddd;
+        }
+
+        .album-cover {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            margin-right: 12px;
+            border-radius: 6px;
+        }
+
+        .accordion-button img {
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-button:not(.collapsed) img {
+            transform: scale(1.1);
+        }
+
+        .song-list li {
+            margin-bottom: 8px;
+        }
+
+        .song-list a {
+            color: #ff5252;
+            text-decoration: none;
+        }
+
+        .song-list a:hover {
+            text-decoration: underline;
+        }

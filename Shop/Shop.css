@@ -1,0 +1,45 @@
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  .navbar {
+    background-color: #000;
+    border-bottom: 1px solid #333;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: #f25c54 !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+  .product-card {
+    background-color: #111;
+    border: none;
+    color: #fff;
+    transition: transform 0.2s;
+  }
+
+  .product-card:hover {
+    transform: scale(1.03);
+  }
+
+  .btn-dark {
+    background-color: #f25c54;
+    border: none;
+  }
+
+  .btn-dark:hover {
+    background-color: #ff7b70;
+  }
