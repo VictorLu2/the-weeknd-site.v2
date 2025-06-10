@@ -1,11 +1,11 @@
 // 商品資料陣列，每個商品包含 id、名稱、價格與圖片網址
 const products = [
-    { id: 1, name: "Hurry Up Tomorrow 2LP", price: 45, img: "https://xo.store/cdn/shop/files/hut-score-vinyl-disc-V2.png?v=1747931020&width=800" },
-    { id: 2, name: "HERO POSTER TEE", price: 50, img: "https://xo.store/cdn/shop/files/hero_tee.png?v=1747924123&width=800" },
-    { id: 3, name: "INSOMNIA TEE", price: 50, img: "https://xo.store/cdn/shop/files/white_tee.png?v=1747924037&width=800" },
-    { id: 4, name: "POSTER HOODIE", price: 120.00, img: "https://xo.store/cdn/shop/files/hero_hoodie_front.png?v=1747923913&width=800" },
-    { id: 5, name: "RED TERROR ZIP HOODIE", price: 120, img: "https://xo.store/cdn/shop/files/zip_up_front.png?v=1747923884&width=800" },
-    { id: 6, name: "MP RATED TRUCKER HAT", price: 45, img: "https://xo.store/cdn/shop/files/trucker_front.png?v=1747923630&width=800" },
+    { id: 1, name: "Hurry Up Tomorrow 2LP", price: 45, img: "../assets/hut-score-vinyl-disc-V2.webp" },
+    { id: 2, name: "HERO POSTER TEE", price: 50, img: "../assets/hero_tee.webp" },
+    { id: 3, name: "INSOMNIA TEE", price: 50, img: "../assets/white_tee.webp" },
+    { id: 4, name: "POSTER HOODIE", price: 120.00, img: "../assets/hero_hoodie_front.webp" },
+    { id: 5, name: "RED TERROR ZIP HOODIE", price: 120, img: "../assets/zip_up_front.webp" },
+    { id: 6, name: "MP RATED TRUCKER HAT", price: 45, img: "../assets/trucker_front.webp" },
 ];
 
 // 購物車資料物件，格式為 { 商品id: 數量 }
