@@ -1,69 +1,84 @@
-  body {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Helvetica Neue', sans-serif;
-  }
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
 
-  .navbar {
-    background-color: #000;
-    border-bottom: 1px solid #333;
-  }
+    .navbar {
+      background-color: #000;
+      border-bottom: 1px solid #333;
+    }
 
-  .navbar-brand,
-  .nav-link {
-    color: #f25c54 !important;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
+    .navbar-brand,
+    .nav-link {
+      color: #f25c54 !important;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
 
-  .nav-link:hover {
-    text-decoration: underline;
-  }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
 
 
 
-  .table {
-    border-collapse: collapse;
-    /* 避免間隙 */
-    width: 100%;
-    background-color: transparent;
-    /* 保持透明與背景融合 */
-  }
 
-  .tour-table td {
-    border: none;
-    /* 不要格子邊線 */
-    background-color: transparent;
-    /* 不要白底 */
-    color: #fff;
-    /* 讓字顏色醒目（視背景而定） */
-    padding: 1rem;
-    text-align: left;
-    font-size: 1.2rem;
-  }
 
-  .tour-table tbody tr {
-    border-bottom: 2px solid #f25c54;
-  }
 
-  .tour-btn {
-    padding: 0.4rem 1rem;
-    border: 1px solid #fff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-  }
+    .table {
+      width: 100%;
+      background-color: black;
+    }
+    
 
-  .tour-btn:hover {
-    background-color: #f25c54;
-    color: #000;
-    border-color: #f25c54;
-  }
+    .tour-table td {
+      border: none;
+      background-color: transparent;
+      color: #fff;
+      padding: 1rem;
+      text-align: left;
+      font-size: 1rem;
+      word-wrap: break-word;
+    }
 
-  .sold-out {
-    color: #aaa;
-    border-color: #aaa;
-    pointer-events: none;
-    cursor: default;
-  }
+    .tour-table tbody tr {
+      border-bottom: 2px solid #f25c54;
+    }
+
+    .tour-btn {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      border: 1px solid #fff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      white-space: nowrap;
+    }
+
+    .tour-btn:hover {
+      background-color: #f25c54;
+      color: #000;
+      border-color: #f25c54;
+    }
+
+    .sold-out {
+      color: #aaa !important;
+      border-color: #aaa !important;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    @media (max-width: 576px) {
+      .tour-table td {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+      }
+
+      .tour-btn {
+        width: 100%;
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+    }
