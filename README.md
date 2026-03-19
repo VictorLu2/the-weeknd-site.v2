@@ -6,16 +6,16 @@ A multi-page fan website for **The Weeknd**, built with vanilla HTML, CSS, and J
 
 ## 📸 Preview
 
-# Home
+Home
 <img width="1906" height="1045" alt="Screenshot 2026-03-19 at 13 51 34" src="https://github.com/user-attachments/assets/67d805f4-9e9f-43ae-a5cd-deaf55cf71b9" />
 
-# Listen
+Listen
 <img width="1907" height="1033" alt="Screenshot 2026-03-19 at 13 53 33" src="https://github.com/user-attachments/assets/5f7454be-acd9-4116-8859-17e1898565fc" />
 
-# Tour
+Tour
 <img width="1920" height="1044" alt="Screenshot 2026-03-19 at 13 57 49" src="https://github.com/user-attachments/assets/5e4ba4b8-cbb3-4fe4-b426-f68c0faa718f" />
 
-# Shop
+Shop
 <img width="1917" height="1043" alt="Screenshot 2026-03-19 at 13 58 22" src="https://github.com/user-attachments/assets/30b08ce7-0a1d-42dc-bbee-11bc66df9e68" />
 
 ---
